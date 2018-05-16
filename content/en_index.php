@@ -24,61 +24,56 @@ setTimeout(function () {
 }, 1000)
 </script>
 
-<style>
-.toolbar-container-wrapper .list-inline {
-  display: none
-}
-</style>
-
 
 <div class="block-box block-box-classic">
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-  </ol>
+
+  <div class="jumbotron black" style="background-color: transparent">
+    <h1>Eclipse Kura</h1>
+      <p class="lead">Kura is a Java/OSGi-based framework for IoT gateways. Kura APIs offer access to the underlying hardware (serial ports, GPS, watchdog, GPIOs, I2C, etc.),
+      management of network configurations, communication with M2M/IoT Integration Platforms, and gateway management.</p>
+  </div>
+
+<div id="main-carousel" class="carousel slide" data-ride="carousel">
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-      <img height="500px" class="center" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNTU1O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+" alt="Image 1">
-      <div class="carousel-caption">
-      </div>
+    <div class="item image-item active">
+      <img src="content/images/kura_status.png" alt="Kura status page">
     </div>
     <div class="item">
-      <img height="500px" class="center" src="content/images/kura_status.png" alt="Kura status page">
-      <div class="carousel-caption">
-      </div>
+      <img src="content/images/kura_network.png" alt="Kura network page">
     </div>
     <div class="item">
-      <img height="500px" src="content/images/kura_network.png" alt="Kura network page">
-      <div class="carousel-caption">
-      </div>
+      <img src="content/images/kura_firewall.png" alt="Kura firewall page">
     </div>
     <div class="item">
-      <img height="500px" src="content/images/kura_firewall.png" alt="Kura firewall page">
-      <div class="carousel-caption">
-      </div>
-    </div>
-    <div class="item">
-      <img height="500px" src="content/images/kura_position.png" alt="Kura position page">
-      <div class="carousel-caption">
-      </div>
+      <img src="content/images/kura_position.png" alt="Kura position page">
     </div>
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
+
+  <style>
+    .carousel-inner .item {
+      height: 600px !important;
+      text-align: center !important;
+      overflow: hidden !important;
+    }
+    .carousel-inner img {
+      height: 100% !important;
+      width: auto !important;
+      display: inline !important;
+    }
+    .carousel {
+      background-color: rgb(49, 49, 49) !important;
+    }
+  </style>
 </div>
 
 <div class="news-list news-list-match-height">

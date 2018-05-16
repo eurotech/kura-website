@@ -2,6 +2,6 @@
 
 include("include/default-layout.php");
 
-renderPage("content/en_index.php");
+renderPage("content/en_downloads.php");
 
 ?>

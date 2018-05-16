@@ -31,7 +31,7 @@ DataTable.prototype.createFilter = function (label, index, values) {
   div.appendChild(l)
 
   var select = document.createElement('select')
-  select.className = "form-control"
+  select.className = "custom-select custom-select-sm"
 
   var all = document.createElement('option')
   all.innerText = 'all';
@@ -94,6 +94,7 @@ DataTable.prototype.renderHeader = function () {
 
   for (var i=0;i<this.columnsDescriptors.length; i++) {
     var h = document.createElement('th');
+    h.className = 'text-center'
     h.innerText = this.columnsDescriptors[i].name
     head.appendChild(h)
   }
@@ -105,6 +106,7 @@ DataTable.prototype.renderRow = function (row) {
   var r = document.createElement('tr')
   for (var i=0; i<row.length; i++) {
     var col = document.createElement('td')
+    col.className = 'text-center'
     var val = row[i]
     if (this.columnsDescriptors[i].renderer) {
       col.appendChild(this.columnsDescriptors[i].renderer(val))
