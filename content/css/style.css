@@ -1,0 +1,39 @@
+/* HEADER */
+
+#header-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  #main-menu .navbar-header {
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+}
+
+/* CAROUSEL */
+
+.carousel-inner .item {
+  height: 600px !important;
+  text-align: center !important;
+  overflow: hidden !important;
+}
+.carousel-inner img {
+  height: 100% !important;
+  width: auto !important;
+  display: inline !important;
+}
+.carousel {
+  background-color: rgb(49, 49, 49) !important;
+}
+
+/* DOWNLOADS TABLE */
+
+#downloads-filters label {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#downloads-filters {
+  padding: 20px;
+}

@@ -38,16 +38,6 @@
     </ul>
   </section>
 
-  <style>
-    #downloads-filters label {
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-    #downloads-filters {
-      padding: 20px;
-    }
-  </style>
-
   <script src="/content/javascript/table.js"></script>
 
   <script defer>

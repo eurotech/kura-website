@@ -71,14 +71,18 @@ $variables['btn_cfa'] = array(
 $App->setThemeVariables($variables);
 
 $Theme->setAttributes('img_logo_default', 'content/images/kura_logo_small.png', 'src');
+$Theme->setAttributes('img_logo_mobile', 'content/images/kura_logo_small.png', 'src');
 
 $Menu = new Menu();
 $Menu->setMenuItemList(array());
 $Menu->addMenuItem("Documentation", "http://eclipse.github.io/kura/", "_self");
-$Menu->addMenuItem("Adopters", "http://eclipse.github.io/kura/", "_self");
+$Menu->addMenuItem("Marketplace", "https://marketplace.eclipse.org/taxonomy/term/4397%2C4396/title", "_self");
 
 $Theme->setMenu($Menu);
 
+
+$Theme->setDisplayMore(false);
+$Theme->setDisplayGoogleSearch(false);
 $Theme->setDisplayToolbar(false);
 
 // Place your html content in a file called content/en_pagename.php
@@ -87,9 +91,8 @@ include ($path);
 $html = ob_get_clean();
 $Theme->setHtml($html);
 
-// Insert extra html before closing </head> tag.
-// $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css"
-// href="style.css" media="screen" />');
+ $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css"
+href="content/css/style.css" media="screen" />');
 
 // Insert script/html before closing </body> tag.
 // $App->AddExtraJSFooter('<script type="text/javascript"

@@ -58,19 +58,7 @@ setTimeout(function () {
   </a>
 
   <style>
-    .carousel-inner .item {
-      height: 600px !important;
-      text-align: center !important;
-      overflow: hidden !important;
-    }
-    .carousel-inner img {
-      height: 100% !important;
-      width: auto !important;
-      display: inline !important;
-    }
-    .carousel {
-      background-color: rgb(49, 49, 49) !important;
-    }
+
   </style>
 </div>
 
