@@ -28,7 +28,8 @@ setTimeout(function () {
 <div class="block-box block-box-classic">
 
   <div class="jumbotron black" style="background-color: transparent">
-      <p class="lead">Eclipse Kura&trade; is an extensible open source IoT Edge Framework based on Java/OSGi. Kura offers API access to the hardware interfaces of IoT Gateways (serial ports, GPS, watchdog, GPIOs, I2C, etc.). It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms through MQTT connectivity.</p>
+  	<p class="text-center"><img src="content/images/kura_logo_400.png" alt="Eclipse Kura Logo" height="100px"></p>
+  	<h3 class="text-center">The extensible open source Java/OSGi IoT Edge Framework</h3>
   </div>
 
 <div id="main-carousel" class="carousel slide" data-ride="carousel">
@@ -63,6 +64,10 @@ setTimeout(function () {
   <style>
 
   </style>
+</div>
+
+<div class="jumbotron black" style="background-color: transparent">
+	<p>Eclipse Kura&trade; is an extensible open source IoT Edge Framework based on Java/OSGi. Kura offers API access to the hardware interfaces of IoT Gateways (serial ports, GPS, watchdog, GPIOs, I2C, etc.). It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms through MQTT connectivity.</p>
 </div>
 
 <div class="news-list news-list-match-height">
@@ -152,6 +157,38 @@ setTimeout(function () {
         <li>Our <a href="https://www.eclipse.org/forums/index.php/f/273/">forum</a> is great places to ask questions.</li>
         <li>Project <a href="https://accounts.eclipse.org/mailing-list/kura-dev">mailing list</a> are good source of what is going on in the project.</li>
       </ul>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="step-by-step">
+  <div class="container">
+    <div class="row intro">
+      <div class="col-xs-24">
+        <h2>Participate &amp; Contribute</h2>
+        <p>Get involved in the Eclipse Kura project.<br/>
+        We welcome users and adopters as part of the community.</p>
+      </div>
+    </div>
+    <div class="row step-by-step-timeline">
+      <div class="col-sm-6 step">
+        <a class="step-icon" href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md"><i data-feather="git-pull-request" stroke-width="1"></i></a>
+        <p><a href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md" class="btn btn-info">How to Contribute</a></p>
+      </div>
+      <div class="col-sm-6 step">
+        <a class="step-icon" href="https://github.com/eclipse/kura/issues"><i data-feather="github" stroke-width="1"></i></a>
+        <p><a href="https://github.com/eclipse/kura/issues" class="btn btn-info">Issue Tracker</a></p>
+      </div>
+      <div class="col-sm-6 step">
+        <a class="step-icon" href="https://iot.eclipse.org/testbeds/"><i data-feather="book-open" stroke-width="1"></i></a>
+        <p><a href="https://iot.eclipse.org/testbeds/" class="btn btn-info">Testbeds</a></p>
+      </div>
+      <div class="col-sm-6 step">
+        <a class="step-icon" href="https://github.com/eclipse/kura/pulse"><i data-feather="activity" stroke-width="1"></i></a>
+        <p><a href="https://github.com/eclipse/kura/pulse" class="btn btn-info">Project Activity</a></p>
+      </div>
     </div>
   </div>
 </div>
