@@ -17,5 +17,7 @@ class KuraTheme extends Quicksilver {
     return $this->MoreMenu;
   }
 
+  public function getFooterPrexfix() {
+  }
 }
 ?>
