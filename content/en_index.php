@@ -36,6 +36,9 @@ setTimeout(function () {
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item image-item active">
+      <img src="content/images/wires_example.png" alt="Kura Wires composer page">
+    </div>
+    <div class="item image-item">
       <img src="content/images/kura_status.png" alt="Kura status page">
     </div>
     <div class="item">
