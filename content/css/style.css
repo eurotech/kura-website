@@ -69,10 +69,14 @@ padding-top: 10px;
   padding: 20px;
 }
 
-/* MORE MENU */
+/* COMMUNITY MENU */
 
 @media (min-width: 768px) {
   #main-menu li.dropdown.eclipse-more .dropdown-menu {
       width: initial;
   }
+}
+
+.yamm-content a {
+  white-space: nowrap;
 }
