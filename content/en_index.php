@@ -28,7 +28,7 @@ setTimeout(function () {
 <div class="block-box block-box-classic">
 
   <div class="jumbotron black" style="background-color: transparent">
-      <p class="lead">Eclipse Kura&trade; is an extensible open source IoT Edge Framework based on Java/OSGi. Kura offers API access to the hardware interfaces of IoT Gateways (serial ports, GPS, watchdog, GPIOs, I2C, etc.). It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms though MQTT connectivity.</p>
+      <p class="lead">Eclipse Kura&trade; is an extensible open source IoT Edge Framework based on Java/OSGi. Kura offers API access to the hardware interfaces of IoT Gateways (serial ports, GPS, watchdog, GPIOs, I2C, etc.). It features ready-to-use field protocols (including Modbus, OPC-UA, S7), an application container, and a web-based visual data flow programming to acquire data from the field, process it at the edge, and publish it to leading IoT Cloud Platforms through MQTT connectivity.</p>
   </div>
 
 <div id="main-carousel" class="carousel slide" data-ride="carousel">
