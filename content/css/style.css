@@ -68,3 +68,11 @@ padding-top: 10px;
 #downloads-filters {
   padding: 20px;
 }
+
+/* MORE MENU */
+
+@media (min-width: 768px) {
+  #main-menu li.dropdown.eclipse-more .dropdown-menu {
+      width: initial;
+  }
+}

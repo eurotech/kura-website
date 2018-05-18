@@ -15,11 +15,12 @@
 
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
+require_once ($_SERVER['DOCUMENT_ROOT'] . "/include/kura.class.php");
 
 function renderPage($path) {
 
 $App = new App();
-$Theme = $App->getThemeClass();
+$Theme = new KuraTheme($App);
 
 // Shared variables/configs for all pages of your website.
 require_once ('_projectCommon.php');
@@ -80,18 +81,46 @@ $Menu->addMenuItem("Marketplace", "https://marketplace.eclipse.org/taxonomy/term
 
 $Theme->setMenu($Menu);
 
+$more_menu = array();
+$more_menu['Community'][] = array(
+  'url' => 'community.php#mailing-list',
+  'caption' => 'Mailing List'
+);
 
-$Theme->setDisplayMore(false);
+$more_menu['Community'][] = array(
+  'url' => 'community.php#issue-tracker',
+  'caption' => 'Issue Tracker'
+);
+
+$more_menu['Community'][] = array(
+  'url' => 'community.php#discussion-forum',
+  'caption' => 'Discussion Forum'
+);
+
+$more_menu['Community'][] = array(
+  'url' => 'community.php#contributing',
+  'caption' => 'Contributing'
+);
+
+$more_menu['Community'][] = array(
+  'url' => 'community.php#benefactors',
+  'caption' => 'Benefactors'
+);
+
+$Theme->setMoreMenu($more_menu);
 $Theme->setDisplayGoogleSearch(false);
 $Theme->setDisplayToolbar(false);
 
 // Place your html content in a file called content/en_pagename.php
 ob_start();
 include ($path);
+echo('<script defer>
+document.querySelector(".eclipse-more .dropdown-toggle").innerHTML = "Community<b class=caret></b>"
+</script>');
 $html = ob_get_clean();
 $Theme->setHtml($html);
 
- $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css"
+$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css"
 href="content/css/style.css" media="screen" />');
 
 // Insert script/html before closing </body> tag.
