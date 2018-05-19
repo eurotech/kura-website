@@ -159,9 +159,9 @@ setTimeout(function () {
   <div class="container">
     <div class="row intro">
       <div class="col-xs-24">
-        <h1>Participate &amp; Contribute</h1>
+        <h1 style="font-size: 2em;" class="fw-600">Participate &amp; Contribute</h1>
         <p>We would love to hear from you!<br/>
-        There are many ways to join the Kura Community</p>
+        There are many ways to join the Kura Community:</p>
       </div>
     </div>
     <div class="row step-by-step-timeline">
