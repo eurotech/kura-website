@@ -119,43 +119,35 @@ setTimeout(function () {
 
 <div class="timeline">
   <div class="row">
-    <div class="col-md-6 one gs-item">
+    <div class="col-md-8 one gs-item">
       <div class="circle">1</div>
-      <h1 class="fw-600">Getting Started</h1>
-      <p>On a Raspberry Pi 2 or 3, you can download Kura from here:
+      <h1 class="fw-600">Install</h1>
+      <p>Download Kura for your Raspberry Pi 2 or 3 from here:
       </p>
       <p><a class="btn btn-warning" href="http://www.eclipse.org/downloads/download.php?file=/kura/releases/3.2.0/kura_3.2.0_raspberry-pi-2-3_installer.deb">Download</a></p>
+      <p>To install, follow these instructions:
+      </p>
+      <p><a class="btn btn-info" href="http://eclipse.github.io/kura/intro/raspberry-pi-quick-start.html#eclipse-kuratrade-installation">Install Instructions</a></p>
       <!-- /downloads/packages/eclipse-standard-432/keplersr2 -->
       <hr>
       <p>For other platforms, please refer to the Documentation Page.</p>
       <p><a class="btn btn-warning" href="http://eclipse.github.io/kura/">Documentation</a></p>
     </div>
-    <div class="col-md-6 two  gs-item">
+    <div class="col-md-8 two  gs-item">
       <div class="circle">2</div>
-      <h1>Wires</h1>
-      <p>The <b>Wires</b> feature aims to <b>simplify the development of IoT Edge Computing Applications</b> leveraging reusable configurable components
-      that can be wired together and which, eventually, allows configurable cooperation between these components. In the dataflow programming model,
-      <b>the application logic is expressed as a directed graph</b> (flow) where each node can have inputs, outputs, and independent processing units.
+      <h1>Connect</h1>
+      <p>Use <b>Wires</b> to visually connect your sensors and PLCs using a friendly web UI for data capture, processing and publishing.
       </p>
       <p><a class="btn btn-info" href="//eclipse.github.io/kura/wires/kura-wires-intro.html">Learn More</a></p>
     </div>
-    <div class="col-md-6 three gs-item">
+    <div class="col-md-8 three gs-item">
       <div class="circle">3</div>
       <h1>Extend</h1>
-      <p>These are a few of the popular references to extend your Kura framework: </p>
+      <p>Develop new Components and Application, Drag-and-Drop new modules from the Eclipse IoT Marketplace.</p>
       <ul>
-        <li>Getting Started with the <a href="http://eclipse.github.io/kura/builtin/intro.html">Framework Functionalities</a></li>
-        <li>Getting Started with <a href="http://eclipse.github.io/kura/dev/kura-setup.html">Java development</a></li>
+        <li>Get Started with the <a href="http://eclipse.github.io/kura/builtin/intro.html">Framework Functionalities</a></li>
+        <li>Get Started with <a href="http://eclipse.github.io/kura/dev/kura-setup.html">Java development</a></li>
         <li>Access the <a href="//marketplace.eclipse.org/taxonomy/term/4397%2C4396/title">Marketplace</a></li>
-      </ul>
-    </div>
-    <div class="col-md-6 four gs-item">
-      <div class="circle">4</div>
-      <h1>Next Steps</h1>
-      <ul>
-        <li>There are many online sources of help in the Eclipse Kura community. First thing to do is to <a href="https://github.com/eclipse/kura">access the repository</a> and clone or fork it.</li>
-        <li>Our <a href="https://www.eclipse.org/forums/index.php/f/273/">forum</a> is great places to ask questions.</li>
-        <li>Project <a href="https://accounts.eclipse.org/mailing-list/kura-dev">mailing list</a> are good source of what is going on in the project.</li>
       </ul>
     </div>
   </div>
@@ -167,9 +159,9 @@ setTimeout(function () {
   <div class="container">
     <div class="row intro">
       <div class="col-xs-24">
-        <h2>Participate &amp; Contribute</h2>
-        <p>Get involved in the Eclipse Kura project.<br/>
-        We welcome users and adopters as part of the community.</p>
+        <h1>Participate &amp; Contribute</h1>
+        <p>We would love to hear from you!<br/>
+        There are many ways to join the Kura Community</p>
       </div>
     </div>
     <div class="row step-by-step-timeline">
@@ -186,8 +178,8 @@ setTimeout(function () {
         <p><a href="https://iot.eclipse.org/testbeds/" class="btn btn-info">Testbeds</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/pulse"><i data-feather="activity" stroke-width="1"></i></a>
-        <p><a href="https://github.com/eclipse/kura/pulse" class="btn btn-info">Project Activity</a></p>
+        <a class="step-icon" href="https://accounts.eclipse.org/mailing-list/kura-dev"><i data-feather="activity" stroke-width="1"></i></a>
+        <p><a href="https://accounts.eclipse.org/mailing-list/kura-dev" class="btn btn-info">Mailing List</a></p>
       </div>
     </div>
   </div>
