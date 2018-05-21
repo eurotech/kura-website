@@ -80,19 +80,19 @@ setTimeout(function () {
         <h2 class="text-center">Project News</h2>
         <ul class="news-list-media list-unstyled">
           <li>
+            <a href="https://github.com/eclipse/kura/blob/KURA_3.2.0_RELEASE/kura/distrib/RELEASE_NOTES.txt" target="_blank" class="media media-link">
+            <h4 class="media-heading">Kura 3.2.0 Release</h4>
+            <p class="media-text">Eclipse Kura 3.2.0 is now available for download!</p></a>
+          </li>
+           <li>
             <a href="https://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires" target="_blank" class="media media-link">
             <h4 class="media-heading">IoT Meetup</h4>
             <p class="media-text">Building IoT Mashups for Industry 4.0 with Eclipse Kura and Kura Wires</p></a>
           </li>
           <li>
-            <a href="https://www.eclipsecon.org/europe2016/session/industry-40-eclipse-kura" target="_blank" class="media media-link">
-            <h4 class="media-heading">EclipseCON 2016</h4>
-            <p class="media-text">Industry 4.0 with Eclipse Kura</p></a>
-          </li>
-          <li>
-            <a href="https://tobiddev.wordpress.com/" target="_blank" class="media media-link">
-            <h4 class="media-heading">Kura Projects</h4>
-            <p class="media-text">Industrial Monitoring Project using Kura</p></a>
+            <a href="https://iot.eclipse.org/open-iot-challenge/" target="_blank" class="media media-link">
+            <h4 class="media-heading">Open IoT Challenge 4.0</h4>
+            <p class="media-text">Latest news on the Eclipse Challenge</p></a>
           </li>
         </ul>
       </div>
@@ -135,14 +135,14 @@ setTimeout(function () {
     </div>
     <div class="col-md-8 two  gs-item">
       <div class="circle">2</div>
-      <h1>Connect</h1>
+      <h1 class="fw-600">Connect</h1>
       <p>Use <b>Wires</b> to visually connect your sensors and PLCs using a friendly web UI for data capture, processing and publishing.
       </p>
       <p><a class="btn btn-info" href="//eclipse.github.io/kura/wires/kura-wires-intro.html">Learn More</a></p>
     </div>
     <div class="col-md-8 three gs-item">
       <div class="circle">3</div>
-      <h1>Extend</h1>
+      <h1 class="fw-600">Extend</h1>
       <p>Develop new Components and Application, Drag-and-Drop new modules from the Eclipse IoT Marketplace.</p>
       <ul>
         <li>Get Started with the <a href="http://eclipse.github.io/kura/builtin/intro.html">Framework Functionalities</a></li>
@@ -170,8 +170,8 @@ setTimeout(function () {
         <p><a href="https://github.com/eclipse/kura/blob/develop/CONTRIBUTING.md" class="btn btn-info">How to Contribute</a></p>
       </div>
       <div class="col-sm-6 step">
-        <a class="step-icon" href="https://github.com/eclipse/kura/issues"><i data-feather="github" stroke-width="1"></i></a>
-        <p><a href="https://github.com/eclipse/kura/issues" class="btn btn-info">Issue Tracker</a></p>
+        <a class="step-icon" href="https://github.com/eclipse/kura/labels/help%20wanted"><i data-feather="github" stroke-width="1"></i></a>
+        <p><a href="https://github.com/eclipse/kura/labels/help%20wanted" class="btn btn-info">Help Wanted Issues</a></p>
       </div>
       <div class="col-sm-6 step">
         <a class="step-icon" href="https://iot.eclipse.org/testbeds/"><i data-feather="book-open" stroke-width="1"></i></a>
