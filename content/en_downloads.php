@@ -48,7 +48,7 @@
     </ul>
   </section>
 
-  <script src="/content/javascript/table.js"></script>
+  <script src="content/javascript/table.js"></script>
 
   <script defer>
     var renderLink = function (url) {
@@ -95,7 +95,7 @@
         renderer: renderBool
       }
     ]
-    new DataTable('/content/data/downloads.json',
+    new DataTable('content/data/downloads.json',
                   'downloads-table',
                   'downloads-filters',
                   columnDescriptors)

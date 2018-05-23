@@ -11,7 +11,7 @@
 
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
-require_once ($_SERVER['DOCUMENT_ROOT'] . "/include/kura.class.php");
+require_once ($_SERVER['DOCUMENT_ROOT'] . "/kura/include/kura.class.php");
 
 function renderPage($path) {
 
@@ -60,7 +60,7 @@ $variables['btn_cfa'] = array(
   'hide' => FALSE, // Optional - Hide the CFA button.
   'html' => '', // Optional - Replace CFA html and insert custom HTML.
   'class' => 'btn btn-huge btn-warning', // Optional - Replace class on CFA link.
-  'href' => '/downloads.php', // Optional - Replace href on CFA link.
+  'href' => 'downloads.php', // Optional - Replace href on CFA link.
   'text' => '<i class="fa fa-download"></i> Download' // Optional - Replace text of CFA link.
 );
 
